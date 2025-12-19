@@ -21,4 +21,4 @@ jobs:
       run: npm install || echo "No dependencies"
 
     - name: Run test
-      run: echo "Tests passed"
+      run: node index.js &
